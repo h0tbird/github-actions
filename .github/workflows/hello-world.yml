@@ -5,3 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo hello
+  say-world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo world
